@@ -1,0 +1,30 @@
+body {
+  font-family: Arial;
+  text-align: center;
+}
+
+.tabs {
+  margin: 50px;
+}
+
+.tab {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  background: #ddd;
+  margin: 5px;
+}
+
+.tab.active {
+  background: #9a0838;
+  color: white;
+}
+
+.content {
+  display: none;
+  margin-top: 20px;
+}
+
+.content.active {
+  display: block;
+}
